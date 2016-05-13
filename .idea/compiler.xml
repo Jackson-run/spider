@@ -23,19 +23,23 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
         <module name="common" />
+        <module name="core" />
         <module name="download" />
         <module name="monitor" />
         <module name="pool" />
         <module name="taskpool" />
+        <module name="tools" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="common" target="1.5" />
+      <module name="core" target="1.5" />
       <module name="download" target="1.8" />
       <module name="monitor" target="1.5" />
       <module name="pool" target="1.5" />
       <module name="spider" target="1.5" />
       <module name="taskpool" target="1.5" />
+      <module name="tools" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

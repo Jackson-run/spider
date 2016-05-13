@@ -33,5 +33,6 @@
     <orderEntry type="library" name="Maven: org.apache.curator:curator-client:2.4.2" level="project" />
     <orderEntry type="library" name="Maven: org.apache.curator:curator-recipes:2.4.2" level="project" />
     <orderEntry type="library" name="Maven: com.google.guava:guava:19.0" level="project" />
+    <orderEntry type="library" name="Maven: org.json:json:20160212" level="project" />
   </component>
 </module>

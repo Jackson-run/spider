@@ -12,7 +12,8 @@
         <module>monitor</module>
         <module>download</module>
         <module>pool</module>
-        <module>common</module>
+        <module>core</module>
+        <module>tools</module>
     </modules>
 
     <dependencies>
@@ -92,6 +93,11 @@
             <groupId>com.google.guava</groupId>
             <artifactId>guava</artifactId>
             <version>19.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.json</groupId>
+            <artifactId>json</artifactId>
+            <version>20160212</version>
         </dependency>
     </dependencies>
 
