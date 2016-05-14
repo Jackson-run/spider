@@ -99,4 +99,18 @@ public interface Task {
      * @param maxErrorTimes
      */
     void setMaxErrorTimes(int maxErrorTimes);
+
+    /**
+     * 获取这个任务执行的状态
+     *
+     * @return
+     */
+    TaskProcessStatus getTaskProcessStatus();
+
+    /**
+     * 设置这个任务的执行状态
+     *
+     * @param status
+     */
+    void setTaskProcessStatus(TaskProcessStatus status);
 }
