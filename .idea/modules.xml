@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/cache/cache.iml" filepath="$PROJECT_DIR$/cache/cache.iml" />
       <module fileurl="file://$PROJECT_DIR$/core/core.iml" filepath="$PROJECT_DIR$/core/core.iml" />
       <module fileurl="file://$PROJECT_DIR$/download/download.iml" filepath="$PROJECT_DIR$/download/download.iml" />
       <module fileurl="file://$PROJECT_DIR$/monitor/monitor.iml" filepath="$PROJECT_DIR$/monitor/monitor.iml" />
-      <module fileurl="file://$PROJECT_DIR$/pool/pool.iml" filepath="$PROJECT_DIR$/pool/pool.iml" />
       <module fileurl="file://$PROJECT_DIR$/spider.iml" filepath="$PROJECT_DIR$/spider.iml" />
       <module fileurl="file://$PROJECT_DIR$/tools/tools.iml" filepath="$PROJECT_DIR$/tools/tools.iml" />
     </modules>

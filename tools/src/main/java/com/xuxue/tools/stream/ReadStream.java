@@ -29,13 +29,13 @@ public class ReadStream {
 
     }
 
-    public String toString(InputStream in) throws IOException {
+    public static String toString(InputStream in) throws IOException {
         byte[] data = toBytes(in);
         Charset charset = CpdetectorEncoding.getEncoding(data, false);
         return new String(data, charset.name());
     }
 
-    public Document toDocument(InputStream in, String url) throws IOException {
+    public static Document toDocument(InputStream in, String url) throws IOException {
 
         String string = toString(in);
         Document doc = Jsoup.parse(string, url);

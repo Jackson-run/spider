@@ -11,9 +11,9 @@
     <modules>
         <module>monitor</module>
         <module>download</module>
-        <module>pool</module>
         <module>core</module>
         <module>tools</module>
+        <module>cache</module>
     </modules>
 
     <dependencies>

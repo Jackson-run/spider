@@ -10,9 +10,27 @@ import org.apache.http.protocol.HttpContext;
  */
 public interface HttpContexPool {
 
+    /**
+     * 从HttpContex池中获取一个HttpContex
+     *
+     * @param host
+     * @return
+     */
     HttpContext getHttpContex(String host);
 
-    void addHttpContex();
+    /**
+     * 向HttpContex池中增加一个HttpContex
+     *
+     * @param host
+     * @param httpContext
+     */
+    void addHttpContex(String host, HttpContext httpContext);
 
+    /**
+     * 将这个HttpContex 返回到池中
+     *
+     * @param httpContext
+     */
+    void backHttpContex(HttpContext httpContext);
 
 }

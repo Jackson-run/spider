@@ -21,6 +21,6 @@ public interface DocumentDownloader extends Downloader {
      *
      * @return
      */
-    DocumentCache getDocumentPool();
+    DocumentCache getDocumentCache();
 
 }

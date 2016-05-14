@@ -16,14 +16,14 @@ public interface SpiderEvent {
      *
      * @return {@linkplain TaskCache}
      */
-    TaskCache getTaskPool();
+    TaskCache getTaskCache();
 
     /**
      * 设置与这个任务关联的任务池
      *
      * @param taskPool
      */
-    void setTaskPool(TaskCache taskPool);
+    void setTaskCache(TaskCache taskPool);
 
     /**
      * 返回产生这个事件的任务
@@ -80,4 +80,16 @@ public interface SpiderEvent {
      * @param throwable
      */
     void setThrowable(Throwable throwable);
+
+    /**
+     * 得到执行http请求时的返回码
+     *
+     * @return
+     */
+    int getResponseCode();
+
+    /**
+     * @param responseCode
+     */
+    void setResponseCode(int responseCode);
 }

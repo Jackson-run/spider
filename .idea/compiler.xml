@@ -22,16 +22,17 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
+        <module name="cache" />
         <module name="common" />
         <module name="core" />
         <module name="download" />
         <module name="monitor" />
-        <module name="pool" />
         <module name="taskpool" />
         <module name="tools" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="cache" target="1.5" />
       <module name="common" target="1.5" />
       <module name="core" target="1.5" />
       <module name="download" target="1.8" />

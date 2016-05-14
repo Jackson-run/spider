@@ -1,6 +1,6 @@
 package com.xuxue.spider.pool;
 
-import com.xuxue.spider.parser.Pluging;
+import com.xuxue.spider.pluging.Pluging;
 
 import java.util.List;
 
